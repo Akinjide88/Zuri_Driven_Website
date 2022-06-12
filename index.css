@@ -1,0 +1,428 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 2px 10px -5px #555;
+}
+
+.Logo_hold{
+    display: flex;
+}
+
+.Logo{
+    width: 150px;
+    height: 130px;
+    margin-bottom: 20px;
+}
+
+.Nav_hold{
+    width: 450px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Nav_hold> a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+.Nav_hold> a:hover{
+    color: rgb(83, 4, 156);
+}
+
+.Container_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+}
+
+main{
+    background-color: aqua;
+    width: 80%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Container_hold{
+    width: 100%;
+    height: 557px;
+    background-color: white;
+}
+
+.Container_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 557px;
+    background-color: white;
+}
+
+.Wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    width: 90%;
+    height: 300px;
+}
+
+.main_one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 400px;
+    height: 250px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 8px -1px #555; 
+}
+
+.About{
+    background-color: whitesmoke;
+    width: 520px;
+    height: 250px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px 0px;
+    box-shadow: 0px 0px 8px -1px #555; 
+}
+
+.About> h1{
+    padding-bottom: 15px;
+}
+
+.main_one> img{
+    width: 170px;
+    height: 170px;
+    border-radius: 100px;
+}
+
+.main_two{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Hobby{
+    background-color: whitesmoke;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px -1px #555; 
+}
+
+.Hobby> h1{
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: rgb(218, 218, 218);
+    width: 100%;
+    height: 200px;
+}
+
+.Footer_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.Logo_footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+.Footer_hold{
+    height: 200px;
+}
+
+.Social_hold{
+    margin-top: -40px;
+}
+
+.Social{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.Social> a{
+    background-color: whitesmoke;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 10px -2px #555;
+}
+
+.fa-facebook{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.fa-twitter{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 7px;
+    color: rgb(0, 0, 0);
+}
+
+.fa-instagram{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 7px;
+    color: rgb(0, 0, 0);
+}
+
+.fa-linkedin{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 7px;
+    color: rgb(0, 0, 0);
+}
+
+.fa-instagram:hover, .fa-facebook:hover, .fa-linkedin:hover, .fa-twitter:hover{
+    color: rgb(83, 4, 156);
+}
+
+
+
+.Company{
+    height: 150px;
+    
+}
+
+.Company> p{
+    height: 30px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+}
+
+.list_wrap{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    margin-top: 35px;
+}
+
+.Contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 656.5px;
+}
+
+.Contact_Container{
+    background-color: whitesmoke;
+    width: 60%;
+    height: 530px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 8px -1px #555;    
+}
+
+.Message{
+    width: 685px;
+    height: 200px;
+    border: 1px solid #555;
+    border-radius: 3px;
+
+}
+
+.Register{
+    margin-top: 60px;
+    margin-left: 16%;
+}
+
+.Register_Container{
+    background-color: whitesmoke;
+    width: 80%;
+    height: 550px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 8px -1px #555;
+}
+
+.Register_Container> h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.Register_container{
+    background-color: whitesmoke;
+    width: 80%;
+    height: 50o0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 8px -1px #555;  
+}
+
+.Name{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Names{
+    width: 80%;
+    height: 100px;  
+}
+
+.Submit{
+    width: 90px;
+    height: 40px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.Submit:hover{
+    color: white;
+    background-color: rgb(83, 4, 156);
+}
+
+.Login{
+    margin-top: 170px;
+    margin-left: 35%;
+}
+
+input{
+    width: 685px;
+    height: 35px;
+    border-radius: 7px;
+    margin-top: 5px;
+    border: 1px solid #888;
+}
+
+.Login_container{
+    background-color: whitesmoke;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 8px -1px #555;  
+}
+
+.Login_container> h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.Login_container> h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(83, 4, 156);
+    font-size: 16px;
+}
+
+.Login_wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 250px;
+}
+ 
+.Inputs{
+    width: 320px;
+    height: 35px;
+    border-radius: 7px;
+    margin-top: 5px;
+    border: 1px solid #888;
+}
+
+.Submit_btn{
+    width: 90px;
+    height: 40px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    font-size: 18px;
+}
+
+.Submit_btn:hover{
+    color: white;
+    background-color: rgb(83, 4, 156);
+}
+
+.Abt{
+    text-decoration: none;
+    color: black;
+}
